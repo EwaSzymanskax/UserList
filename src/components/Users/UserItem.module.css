@@ -1,0 +1,17 @@
+.li{
+    display: flex;
+    justify-content: space-between;
+}
+.button {
+    border: 1px solid #4f005f;
+    background: #4f005f;
+    color: white;
+    width: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0.7rem;
+    font-size: 0.7rem;
+    border-radius: 20%;
+    
+}

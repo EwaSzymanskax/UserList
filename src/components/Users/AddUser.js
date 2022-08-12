@@ -64,6 +64,8 @@ const AddUser = (props) => {
                      <label htmlFor="age">Age (Years)</label>
                      <input id='age' type='number' value={enteredAge} onChange={ageChangeHandler}/>
                     <Button type="submit">Add User</Button>
+                    <div className={classes.maxNumber}>Max number of users: {maxUsers}, left: {maxUsers - usersList.length}</div>
+
                 </form>
              </Card>
         </div>
