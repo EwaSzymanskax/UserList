@@ -16,8 +16,6 @@ function App() {
   };
 
   const deleteUser = (id) => {
-    // const newUsersList = usersList.filter(user => user.id !== id)
-    // setUsersList(newUsersList)
     setUsersList((prevUsersList)=> {
       const newUsersList = prevUsersList.filter(user => user.id !== id)
       return newUsersList
